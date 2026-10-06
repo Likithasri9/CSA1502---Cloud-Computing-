@@ -1,0 +1,35 @@
+1. Evaluate the effectiveness of your concept map in representing cloud computing principles. Which design decisions most strongly support your solution, and why?
+The concept map effectively represents cloud computing by connecting important concepts such as service models, APIs, virtualization, scalability, elasticity, 
+resource pooling, and cloud services. The use of labeled relationships makes it easy to understand how each component supports the overall cloud architecture.
+The strongest design decisions are the selection of suitable service models, use of APIs and web services, and separation of provider and user responsibilities.
+These decisions clearly show how cloud resources are provided and consumed. The concept map also shows how virtualization enables efficient resource sharing and 
+how scalability and elasticity help the system handle changing workloads.
+
+2. Analyze how scalability, elasticity, and resource management influence the architecture shown in your concept map. What challenges could arise if these capabilities 
+were absent?
+Scalability allows the system to increase or decrease its computing resources according to the workload. Elasticity enables resources to be automatically adjusted when 
+demand changes. Resource management ensures that computing, storage, and network resources are used efficiently.These capabilities improve system performance and 
+prevent resource wastage. For example, during high user traffic, additional resources can be provided to maintain performance. If scalability and elasticity were absent, 
+the system could become slow or unavailable during peak usage. It could also lead to higher costs, resource wastage, poor performance, and service interruptions.
+
+3. Justify the selection of the APIs, web services, or cloud services included in your concept map. How do they contribute to the overall functionality and efficiency 
+of the system?
+APIs, REST services, and web services are included because they allow different components of the cloud system to communicate with each other. REST APIs provide a lightweight
+and efficient method for communication between the frontend, backend, databases, and other cloud services.Cloud services such as compute, database, storage, 
+authentication, monitoring, and analytics support different application requirements without requiring all infrastructure to be managed manually. APIs also improve 
+integration, flexibility, and reusability. Therefore, these services make the system more efficient, scalable, and easier to maintain.
+
+4. Critically examine the relationships between the components in your concept map. How do these interactions improve reliability, performance, or user experience?
+The components in the concept map are connected through clear relationships such as provides, uses, enables, communicates through, and supports. The user application 
+communicates with the backend through APIs, while the backend interacts with databases, storage, authentication, and other cloud services.These interactions improve 
+reliability by separating different responsibilities and allowing services to be monitored independently. They improve performance through scalable computing and 
+efficient resource management. Authentication and security services protect user data, while monitoring helps identify problems quickly. Together, these components 
+provide a faster, more reliable, secure, and user-friendly system.
+
+5. Reflect on the process of developing your concept map. How has creating and analyzing the map changed your understanding of cloud computing architecture, and
+what improvements would you make if you were redesigning it?
+Developing the concept map helped me understand that cloud computing is not limited to storing data online. It involves the interaction of service models, virtualization, 
+APIs, cloud resources, scalability, elasticity, security, and resource management.Creating the relationships between these components made it easier to understand 
+how a cloud-based system works as a complete architecture. If I redesigned the map, I would improve the visual hierarchy, reduce unnecessary connections, and 
+clearly separate service models, cloud infrastructure, APIs, and security components. I would also add more specific project-related examples to make the architecture 
+easier to understand.
